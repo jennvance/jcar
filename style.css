@@ -1,0 +1,25 @@
+.jcarousel {
+	position: relative;
+	overflow: hidden;
+	/*Set width to define how many items are visible*/
+	width: 200px;
+}
+
+.jcarousel ul {
+	/*Width must be big enough to contain all items*/
+	width: 20000em;
+	/*Position MUST be either relative or absolute*/
+	position: relative;
+	list-style: none;
+}
+
+/*Item elements*/
+/*Jcarousel works best if these have a set width and height, though it's not required*/
+.jcarousel li {
+	/*Float is required only for block elements like <li>'s*/
+	float: left;
+}
+
+.active {
+	color: red;
+}
